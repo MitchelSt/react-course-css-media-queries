@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700&display=swap");
+body {
+  font-family: "Heebo", sans-serif;
+}
+
+.header {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.burgerMenu {
+  margin: 1rem 1rem 0 0;
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+
+.heroSection {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  text-align: center;
+}
+
+.heroImage {
+  width: 12rem;
+}
+
+.heroTitle {
+  margin-top: 2rem;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 45px;
+  color: #21243d;
+}
+
+.heroInfo {
+  margin-top: 1rem;
+  font-size: 16px;
+  line-height: 23px;
+  color: #21243d;
+}
+
+.heroCta {
+  margin-top: 1rem;
+  background: #ff6464;
+  border-radius: 2px;
+  outline: none;
+  border: none;
+  padding: 0.5rem 1.1rem;
+
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+  color: #ffffff;
+}
